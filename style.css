@@ -99,6 +99,7 @@ body {
   padding: 0px 0px 0px 20px;
   margin-bottom: 10px;
   margin-top: -25px;
+  outline: none;
 }
 .subBtn {
   width: 100%;
@@ -124,7 +125,7 @@ body {
 #validationP {
   margin-bottom: -5px;
   color: hsl(4, 100%, 67%);
-  /* display: none;/ */
+  display: none;
 }
 #rightImg {
   width: 100%;
@@ -140,6 +141,7 @@ body {
   margin-top: 100px;
   align-items: center;
   text-align: center;
+  display: none;
 }
 @media only screen and (max-width: 900px) {
   .box {
