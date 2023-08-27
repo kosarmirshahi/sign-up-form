@@ -1,0 +1,82 @@
+body {
+  background-color: hsl(234, 29%, 20%);
+  font-family: "Roberto", sans-serif;
+}
+@font-face {
+  font-family: "Roboto"; /* Choose a name for your font */
+  src: url("fonts/Roboto-Bold.ttf") format("truetype");
+}
+.container {
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 60px;
+  margin: auto;
+}
+.leftSection {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#description {
+  margin-top: -12px;
+}
+.pointSentence {
+  display: flex;
+  margin-top: -30px;
+}
+#headerText {
+  font-size: 50px;
+  font-weight: bolder;
+  color: hsl(234, 29%, 20%);
+}
+#pointText {
+  margin-left: 10px;
+}
+#emailText {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: -7px;
+  /* margin-top: 10px; */
+}
+.inputStyle {
+  width: 100%;
+  height: 3.2rem;
+  border: hsl(231, 7%, 60%) solid 1px;
+  border-radius: 5px;
+  background-color: white;
+  color: hsl(231, 7%, 60%);
+  padding: 0px 0px 0px 20px;
+  margin-bottom: 10px;
+  margin-top: -25px;
+}
+.subBtn {
+  width: 100%;
+  height: 3.2rem;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin-top: -10px;
+}
+.validationSection {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
+  /* margin-bottom: -13px; */
+  align-items: center;
+}
+#validationP {
+  margin-bottom: -5px;
+  color: hsl(4, 100%, 67%);
+  display: none;
+}
