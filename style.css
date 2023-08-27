@@ -15,13 +15,59 @@ body {
   padding: 20px 20px 20px 60px;
   margin: auto;
 }
+@media only screen and (max-width: 1300px) {
+  .container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .container {
+    width: 70%;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .container {
+    width: 95%;
+  }
+}
 .leftSection {
   width: 48%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-
+@media only screen and (max-width: 880px) {
+  .leftSection {
+    width: 90%;
+    height: 550px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .leftSection {
+    height: 650px;
+  }
+}
+.rightSection {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 880px) {
+  .rightSection {
+    width: 90%;
+    /* height: 30rem; */
+  }
+}
 #description {
   margin-top: -12px;
 }
@@ -40,7 +86,7 @@ body {
 #emailText {
   font-size: 12px;
   font-weight: bold;
-  margin-bottom: -7px;
+  /* margin-bottom: -7px; */
   /* margin-top: 10px; */
 }
 .inputStyle {
@@ -78,5 +124,8 @@ body {
 #validationP {
   margin-bottom: -5px;
   color: hsl(4, 100%, 67%);
-  display: none;
+  /* display: none;/ */
+}
+#rightImg {
+  width: 100%;
 }
